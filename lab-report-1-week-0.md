@@ -1,4 +1,4 @@
-![Image](images/cse15l-lab-reports-1.png)
+![Image](/images/cse15l-lab-reports-1.png)
 
 ![Image](https://raw.githubusercontent.com/air-wickvu/cse15l-lab-reports/main/images/cse15l-lab-reports-1.png)
 
