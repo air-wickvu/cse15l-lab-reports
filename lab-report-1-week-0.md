@@ -1,3 +1,3 @@
-![Image](cse15l-lab-reports - Google Chrome 9_23_2022 11_48_26 AM.png)
+![Image]("C:\Users\erick\Videos\Captures\cse15l-lab-reports-1.png")
 
-![Image](cse15l-lab-reports - Google Chrome 9_23_2022 12_03_39 PM.png)
+![Image]("C:\Users\erick\Videos\Captures\cse15l-lab-reports-2.png")
