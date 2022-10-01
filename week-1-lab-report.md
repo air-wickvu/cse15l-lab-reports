@@ -1,9 +1,9 @@
 1. Installing VScode 
-![image1](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image1.png) 
+![image1](/images/week-1-lab-report-image1.png) 
 a. I had Visual Studio installed prior to this course. I updated and confirmed it is a working version on my workstation. <br />
 b. If not installed yet, https://code.visualstudio.com/ , and follow the instructions to install 
 2. Remotely Connecting
-![image2](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image2.png)
+![image2](/images/week-1-lab-report-image2.png)
 a. I went to the link provided in the lab guide and reseted my password. After a successful reset, I was able to ssh onto the server with my account. <br />
 b. Link for course-specific account: https://sdacs.ucsd.edu/~icc/index.php
 3. Trying Some Commands
