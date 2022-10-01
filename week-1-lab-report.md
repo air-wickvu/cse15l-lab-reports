@@ -12,7 +12,7 @@ a. I went to the link provided in the lab guide and reseted my password. After a
 b. Link for course-specific account: https://sdacs.ucsd.edu/~icc/index.php
   
 3. Trying Some Commands
-![[image3](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image3.png)
+![image3](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image3.png)
 a. In this step, I was testing commands on the server side. I created a new folder and removed the folder. I accessed different directories and created new folders within. I was able to navigate between directories. 
   
 4. Moving Files with scp
