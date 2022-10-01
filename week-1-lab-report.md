@@ -22,7 +22,6 @@ a. In this step, I created a java file named WhereAmI with sample code. I was ab
 5. Setting an SSH key 
 ![image5](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image5.png)
 ![image5.1](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image5.1.png)
-![image5.2](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image5.2.png)
 a. Had an issue where the file would not show in the client. Was able to fix by creating folder beforehand <br />
 b. Confirmed pub key is the same on both sides
 6. Optimizing Remote Running
