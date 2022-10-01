@@ -14,7 +14,6 @@ a. In this step, I was testing commands on the server side. I created a new fold
 a. In this step, I created a java file named WhereAmI with sample code. I was able to successfully scp to the server. I was able to confirm the file was copied successfully by ssh into the server and checking if it is there. 
 5. Setting an SSH key 
 ![image5](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image5.png)
-![image5.1](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image5.1.png)
 ![image6.2](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-1-lab-report-image6.2.png)
 a. Had an issue where the file would not show in the client. Was able to fix by creating folder beforehand <br />
 b. Confirmed pub key is the same on both sides
