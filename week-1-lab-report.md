@@ -15,9 +15,12 @@ a. In this step, I was testing commands on the server side. I created a new fold
 ![image4](/images/week-1-lab-report-image4.png)
 a. In this step, I created a java file named WhereAmI with sample code. I was able to successfully scp to the server. I was able to confirm the file was copied successfully by ssh into the server and checking if it is there. <br/>
 b. Commands I used: 
+Starting on the client:
 ```
-ssh 
+scp WhereAmI.java cs15lfa22@ieng6.ucsd.edu 
 ```
+To confirm the file is there:
+`ssh cs15lfa22@ieng6.ucsd.edu "cat WhereAmI.java"`
 
 5. Setting an SSH key 
 ![image5](/images/week-1-lab-report-image5.png)
