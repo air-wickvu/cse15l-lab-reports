@@ -21,7 +21,6 @@ mkdir testfolder2
 ls 
 rmdir testfolder2
 ```
-a. In this step, I was testing commands on the server side. I created a new folder and removed the folder. I accessed different directories and created new folders within. I was able to navigate between directories. <br/>
 4. Moving Files with scp
 ![image4](/images/week-1-lab-report-image4.png)
 a. In this step, I created a java file named WhereAmI with sample code. I was able to successfully scp to the server. I was able to confirm the file was copied successfully by ssh into the server and checking if it is there. <br/>
