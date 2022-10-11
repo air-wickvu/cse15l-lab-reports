@@ -6,7 +6,8 @@ b. If not installed yet, [link1](https://code.visualstudio.com/) , and follow th
 ![image2](/images/week-1-lab-report-image2.png)
 a. I went to the link provided in the lab guide and reseted my password. After a successful reset, I was able to ssh onto the server with my account. <br />
 b. Link for course-specific account: [link2](https://sdacs.ucsd.edu/~icc/index.php) <br/> 
-c. Commands to ssh: `ssh cs15lfa22@ieng6.ucsd.edu`
+c. Steps to ssh: `ssh cs15lfa22@ieng6.ucsd.edu` then select yes when prompted then enter in password. You should recieve a message with your last login time, this means you have successfully ssh! 
+
 3. Trying Some Commands
 ![image3](/images/week-1-lab-report-image3.png)
 a. In this step, I was testing commands on the server side. I created a new folder and removed the folder. I accessed different directories and created new folders within. I was able to navigate between directories. 
