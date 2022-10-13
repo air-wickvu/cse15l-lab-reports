@@ -1,7 +1,7 @@
 1. Part One 
 2. Part Two 
 
-Choose two of the bugs from different files above. For each, show:
+Choose two of the bugs from different files above. <br/>
 File: ArrayExamples.java <br/>
 *The failure-inducing input (the code of the test)
 - two index array <br/>
