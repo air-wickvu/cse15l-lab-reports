@@ -104,7 +104,7 @@ File: ListsExamples.java
 - Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?: the connection between the symptom and the bug is the index was not correctly updated therefore would not be correct. The bug causes the particular symptom because it would not correctly update the index. <br/>
 
 Failed Test Code: 
-````
+```
 // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
@@ -133,9 +133,9 @@ Failed Test Code:
 
 ```
 
-Successful Test Code: 
-```
-// Takes two sorted list of strings (so "a" appears before "b" and so on),
+Successful Test Code:
+
+```// Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -159,6 +159,4 @@ Successful Test Code:
       index2 += 1;
     }
     return result;
-  }
-
-
+  }```
