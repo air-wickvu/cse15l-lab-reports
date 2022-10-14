@@ -46,7 +46,7 @@ class NumberServer {
     }
 }
 ```
-![screenshot1]()
+![screenshot1](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-3-lab-report-image1.png)
 - Which methods in your code are called: handleRequest is being called 
 - What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/add" and "pineapple" 
 - If those values change, how they change by the time the request is done processing: the values do not change unless I add in a different string. 
