@@ -58,7 +58,7 @@ class NumberServer {
 
 ![screenshot3]()
 - Which methods in your code are called: handleRequest is being called 
-- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/add" and "banana" 
+- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/add" and "fruit" 
 - If those values change, how they change by the time the request is done processing: the values do not change unless I add in a different string.
 
 ![screenshot4]()
