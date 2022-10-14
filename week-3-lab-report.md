@@ -51,17 +51,17 @@ class NumberServer {
 - What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/add" and "pineapple" 
 - If those values change, how they change by the time the request is done processing: the values do not change unless I add in a different string. 
 
-![screenshot2]()
+![screenshot2](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-3-lab-report-image2.png)
 - Which methods in your code are called: handleRequest is being called from the SearchEngine.java file 
 - What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/add" and "apple" 
 - If those values change, how they change by the time the request is done processing: the values do not change unless I add in a different string. 
 
-![screenshot3]()
+![screenshot3](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-3-lab-report-image3.png)
 - Which methods in your code are called: handleRequest is being called 
 - What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/add" and "fruit" 
 - If those values change, how they change by the time the request is done processing: the values do not change unless I add in a different string.
 
-![screenshot4]()
+![screenshot4](https://github.com/air-wickvu/cse15l-lab-reports/blob/main/images/week-3-lab-report-image4.png)
 - Which methods in your code are called: handleRequest is being called 
 - What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the query specifically "/query" and for my example searching for the subscript "app" in the list. 
 - If those values change, how they change by the time the request is done processing: the values that do not match will not be printed. 
