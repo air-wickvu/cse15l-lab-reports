@@ -73,5 +73,27 @@ File: ArrayExamples.java <br/>
 - The failure-inducing input (the code of the test): two index array <br/>
 - The symptom (the failing test output): would print duplicate numbers. The last index would not update the first index. <br/>
 - The bug (the code fix needed): the fix was to use a divide and conqueror approach. Also, I created a temp variable of type int to store the current value of the loop. <br/> 
-- Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?: the connection between the symptom and the bug is the last index was not stored anywhere therefore would not be reversed. The bug causes the particular symptom because it would not correctly index the last index. 
+- Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?: the connection between the symptom and the bug is the last index was not stored anywhere therefore would not be reversed. The bug causes the particular symptom because it would not correctly index the last index. <br/>
 
+- Failed Test Code: 
+```
+    //Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ```
+
+- Successful Test Code: 
+```
+// Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp; 
+
+    }
+  }
+  ```
