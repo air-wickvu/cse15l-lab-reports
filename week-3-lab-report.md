@@ -1,4 +1,4 @@
-1. Part One <br/>
+Part One: <br/>
 Simple Search Engine Code: 
 ```import java.io.IOException;
 import java.net.URI;
@@ -48,23 +48,23 @@ class NumberServer {
 ```
 ![screenshot1](/images/week-3-lab-report-image1.png)
 - Which methods in your code are called: The method handleRequest is being called in the code. 
-- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument to the method handleRequest is the url but more specifically the path "/add" and the query "?s=pineapple".   
-- If those values change, how they change by the time the request is done processing: the values do not change unless I change value of the query or the path. 
+- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: The relevant argument to the method handleRequest is the url but more specifically the path "/add" and the query "?s=pineapple". Within the handleRequest method, there is an if statement checking what string is in the path and for this example the query is added into an ArrayList. The method is able to parse the url by `.getPath()` and more specifically the query by `.getQuery()`.The method is able to find the string input by utilizing built-in functions such as `url.getPath().contains`.
+- If those values change, how they change by the time the request is done processing: The values do not change unless I change value of the query or the path. 
 
 ![screenshot2](/images/week-3-lab-report-image2.png)
 - Which methods in your code are called: The method handleRequest is being called from the SearchEngine.java file.
-- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument to the method handleRequest is the url but more specifically the path "/add" and the query "?s=apple". 
-- If those values change, how they change by the time the request is done processing: the values do not change unless I change value of the query or the path. 
+- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: The relevant argument to the method handleRequest is the url but more specifically the path "/add" and the query "?s=apple". Within the handleRequest method, there is an if statement checking what string is in the path and for this example the query is added into an ArrayList. The method is able to parse the url by `.getPath()` and more specifically the query by `.getQuery()`.The method is able to find the string input by utilizing built-in functions such as `url.getPath().contains`. 
+- If those values change, how they change by the time the request is done processing: The values do not change unless I change value of the query or the path. 
 
 ![screenshot3](images/week-3-lab-report-image3.png)
 - Which methods in your code are called: handleRequest is being called 
-- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument to the method handleRequest is the url but more specifically the path "/add" and the query "?s=fruit".  
-- If those values change, how they change by the time the request is done processing: the values do not change unless I change value of the query or the path . 
+- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: The relevant argument to the method handleRequest is the url but more specifically the path "/add" and the query "?s=fruit". Within the handleRequest method, there is an if statement checking what string is in the path and for this example the query is added into an ArrayList. The method is able to parse the url by `.getPath()` and more specifically the query by `.getQuery()`.The method is able to find the string input by utilizing built-in functions such as `url.getPath().contains`.   
+- If those values change, how they change by the time the request is done processing: The values do not change unless I change value of the query or the path. 
 
 ![screenshot4](images/week-3-lab-report-image4.png)
 - Which methods in your code are called: The method handleRequest is being called. 
-- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the url but more specifically the path "/search" and for my example searching for the subscript "app" in the list. 
-- If those values change, how they change by the time the request is done processing: the values that do not match will not be printed. 
+- What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: the relevant argument is the url but more specifically the path "/search" and for my example searching for the subscript "app" in the list. The method is able to parse the url by `.getPath()` and more specifically the query by `.getQuery()`.The method is able to find the string input by utilizing built-in functions such as `url.getPath().contains`. In this example, after the string input is extracted by built-in function `.split` and added into Arraylist, there is a for loop that checks the ArrayList with the string input and it will return the matched words. 
+- If those values change, how they change by the time the request is done processing: The values that do not match will not be printed. 
 
 2. Part Two 
 
