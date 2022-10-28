@@ -1,7 +1,8 @@
 Part One: <br/>
 Simple Search Engine Code: 
 
-```import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 import java.util.*; 
 
