@@ -1,5 +1,6 @@
 Part One: <br/>
 Simple Search Engine Code: 
+
 ```import java.io.IOException;
 import java.net.URI;
 import java.util.*; 
@@ -46,6 +47,7 @@ class NumberServer {
     }
 }
 ```
+
 ![screenshot1](/images/week-3-lab-report-image1.png)
 - Which methods in your code are called: The method handleRequest is being called in the code. 
 - What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class: The relevant argument to the method handleRequest is the url but more specifically the path `/add` and the query `?s=pineapple`.  The method is able to parse the url by `.getPath()` and more specifically the query by `.getQuery()`, it is further processed by `.split("=")`. Within the handleRequest method, there is an if statement checking what string is in the path and for this example the query is added into an ArrayList `items` .The method is able to find the string input by utilizing built-in functions such as `url.getPath().contains`.
