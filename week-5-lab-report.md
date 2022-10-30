@@ -16,7 +16,7 @@ Command: `grep`
             visualized using QuickPDB, a Java applet developed by
         easier to grapple with a difficult, but ultimately soluble, basic science question than to
 `
-- The `grep -h` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `./technical/*/*.txt`) then displays the matched lines. This command can be useful when searching for keywords in multiple files. It can also be useful if the programmer can only partially recall a string so grep solve this issue by searching for a pattern of characters. 
+- The `grep` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `./technical/*/*.txt`) then with `-h` displays the matched lines. This command can be useful when searching for keywords in multiple files. It can also be useful if the programmer can only partially recall a string so grep solve this issue by searching for a pattern of characters. 
 
 2. Command Line Option 1: `grep -h "play" ./technical/government/*/*.txt` <br/>
 - Function: Display the matched lines, but does not display the filenames.
@@ -213,7 +213,7 @@ Tables 4, 5 and 6 display First-Class per-household annual
 Table 2 below displays the revenue, attributable cost, contribution
 
 `
-- The `grep -h` command searches for a pattern of characters (ex: play) in a file(s) (ex: `./technical/government/*/*.txt`) then displays the matched line. This command can be useful when searching for keywords in multiple files. It can also be useful if the programmer wants to peek at the code surrounding the keyword to get a better understanding. 
+- The `grep` command searches for a pattern of characters (ex: play) in a file(s) (ex: `./technical/government/*/*.txt`) then with `-h` displays the matched line. This command can be useful when searching for a keyword in multiple files. It can also be useful if the programmer wants to inspect at the code surrounding the keyword to get a better understanding with ease of access. Similarily, another use is if the programmer cannot spell the name of the variable correctly or can only partially recall.
 
 3. Command Line Option 1: `grep -h "top" technical/911report/chapter-2.txt`
 - Function: Display the matched lines, but does not display the filenames.
@@ -231,7 +231,7 @@ Table 2 below displays the revenue, attributable cost, contribution
                 diagrams prepared by the team's computer specialist. He, his top military committee
                 such attacks months earlier, when some of its operatives-top military committee
 `
-- The `grep -h` command searches for a pattern of characters (ex: top) in a file(s) (ex: `technical/911report/chapter-2.txt`) then displays the matched line. This command can be useful when searching for a word in a single file like in this example. Similar to a find shortcut (ctrl+f), I can use grep to find the matched pattern of characters but a benefit of -h is it displays the matched lines. 
+- The `grep` command searches for a pattern of characters (ex: top) in a file(s) (ex: `technical/911report/chapter-2.txt`) then `-h` displays the matched line. This command can be useful when searching for a word in a single file like in this example. Similar to a find shortcut (ctrl+f), I can use grep to find the matched pattern of characters but a benefit of -h is it displays the matched lines. 
 
 4. Command Line Option 2: ` grep -c "apple" technical/911report/*.txt `
 - Function: Prints only a count of the lines that match a pattern 
@@ -254,7 +254,7 @@ technical/911report/chapter-8.txt:1
 technical/911report/chapter-9.txt:0
 technical/911report/preface.txt:0
 `
-- The `grep -c` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `technical/911report/*.txt`) then displays the count of matched pattern for each file. This command can be useful when you would like to know how often a keyword is being used in mulitple files at once. In this example, in the 911report folder, the matched pattern was only found in one text file. 
+- The `grep` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `technical/911report/*.txt`) then `-c` displays the count of matched pattern for each file. This command can be useful when you would like to know how often a keyword is being used in mulitple files at once. In this example, in the 911report folder, the matched pattern was only found in one text file. 
 
 5. Command Line Option 2: `grep -c "apple" technical/Government/*/c*.txt`
 - Function: Prints only a count of the lines that match a pattern 
@@ -265,7 +265,7 @@ technical/Government/Env_Prot_Agen/ctf1-6.txt:0
 technical/Government/Env_Prot_Agen/ctf7-10.txt:0
 technical/Government/Env_Prot_Agen/ctm4-10.txt:0
 `
-- The `grep -c` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `technical/Government/*/c*.txt`) then displays the count of matched pattern for each file. In this example, in the Government folder, searching in files that start with 'c', it was found three times in a single text file. This can be useful for a programmer when searching in a directory with many files and needs to quickly know how often the pattern is used in the codebase for specific files. 
+- The `grep` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `technical/Government/*/c*.txt`) then `-c` displays the count of matched pattern for each file. In this example, in the Government folder, searching in files that start with 'c', it was found three times in a single text file. This can be useful for a programmer when searching in a directory with many files and needs to quickly know how often the pattern is used in the codebase for specific named files. 
 
 6. Command Line Option 2: `grep -c "apple" technical/government/about_lsc/commission_report.txt`
 - Function: Prints only a count of the lines that match a pattern 
@@ -300,7 +300,7 @@ technical/plos/journal.pbio.0020010.txt:        Leaving aside quibbles and cavea
 technical/plos/journal.pbio.0020010.txt:        has not gone away in the ten years since JSTOR was conceived, but the ultimate solution—the
 technical/plos/journal.pbio.0020010.txt:        availability of electronic content—has become closer, and JSTOR's success has encouraged
 `
-- The `grep -w` command searches for a specific pattern of characters (ex: JSTOR) in a file(s) (ex: `technical/government/about_lsc/commission_report.txt`) then displays the matched pattern with the filename and the surrounding content as well. In this example, is useful to quickly inspect where the matched pattern is located as well as the matched line to get a further understanding. 
+- The `grep -w` command searches for a specific pattern of characters (ex: JSTOR) in a file(s) (ex: `technical/government/about_lsc/commission_report.txt`) then displays the matched pattern with the filename and the surrounding content as well. In this example, is useful to quickly inspect where the matched pattern is located as well as the surrounding matched line to get a further understanding of the code. 
 
 8. Command Line Option 3: `grep -lw "apple" technical/government/*/*.txt`
 - Function: `-l` Displays list of filenames only 
@@ -567,4 +567,4 @@ technical/plos/pmed.0020275.txt
 technical/plos/pmed.0020278.txt
 technical/plos/pmed.0020281.txt
 `
-- The ` -w` command searches for a specific pattern of characters (ex: JSTOR) in a file(s) (ex: `technical/plos/*.txt`). But, with the `-v` the files returned is the files that do not contain the keyword. Additionally with  `-l` it displays the filename of the matched pattern. In this example, it can be useful if you need to omit a specific keyword and need to know which files do not contain the keyword.  
+- The ` -w` command searches for a specific pattern of characters (ex: JSTOR) in a file(s) (ex: `technical/plos/*.txt`). But, with the `-v` the files returned is the files that do not contain the keyword. Additionally with  `-l` it displays the filename of the matched pattern. In this example, it can be useful if you need to know which files do not contain the keyword and quickly access them.  
