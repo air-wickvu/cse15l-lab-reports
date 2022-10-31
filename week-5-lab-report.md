@@ -3,7 +3,7 @@ Command: `grep`
 1. Command Line Option 1: `grep -h "apple" ./technical/*/*.txt ` <br/>
 - Function: Display the matched lines, but does not display the filenames.
 - Output: 
-`                grappled with reports alleging plots in Yemen and Italy, as well as a report about a
+`grappled with reports alleging plots in Yemen and Italy, as well as a report about a
         questions requiring large sample sizes and to grapple with
             This problem appears to lie in the JAVA applet included
             applet-generated graph may be problematic due to an
@@ -14,14 +14,14 @@ Command: `grep`
           in pineapple (~70% to 
           the JAVA applet WebMol [ 35]. In this setting, the color
             visualized using QuickPDB, a Java applet developed by
-        easier to grapple with a difficult, but ultimately soluble, basic science question than to
-`
+        easier to grapple with a difficult, but ultimately soluble, basic science question than to`
+
 - The `grep` command searches for a pattern of characters (ex: apple) in a file(s) (ex: `./technical/*/*.txt`) then with `-h` displays the matched lines. This command can be useful when searching for keywords in multiple files. It can also be useful if the programmer can only partially recall a string so grep solve this issue by searching for a pattern of characters. 
 
 2. Command Line Option 1: `grep -h "play" ./technical/government/*/*.txt` <br/>
 - Function: Display the matched lines, but does not display the filenames.
 - Output: 
-` normal work of lawyers. The Court's decision displays not only an     
+`normal work of lawyers. The Court's decision displays not only an     
 displays, I think, the very fondness for "reform through the
 that we launched in 1998. As it was conceived and as it has played
 understand the vital role they play in helping to assure that no
@@ -210,15 +210,14 @@ private sandbox and doesn't want the PRC playing there.
 plays in policing the fraudulent use of the mails. In a competitive
 this paper, it could play a role as well. Specifically, suppose
 Tables 4, 5 and 6 display First-Class per-household annual
-Table 2 below displays the revenue, attributable cost, contribution
+Table 2 below displays the revenue, attributable cost, contribution`
 
-`
 - The `grep` command searches for a pattern of characters (ex: play) in a file(s) (ex: `./technical/government/*/*.txt`) then with `-h` displays the matched line. This command can be useful when searching for a keyword in multiple files. It can also be useful if the programmer wants to inspect at the code surrounding the keyword to get a better understanding with ease of access. Similarily, another use is if the programmer cannot spell the name of the variable correctly or can only partially recall.
 
 3. Command Line Option 1: `grep -h "top" technical/911report/chapter-2.txt`
 - Function: Display the matched lines, but does not display the filenames.
 - Output: 
-`                in the world today and the worst terrorists are the Americans. Nothing could stop
+`in the world today and the worst terrorists are the Americans. Nothing could stop
                 stop these attacks?"
                 And, as a Palestinian, he saw Israel as the top priority for the next stage.
                 finance officers and top operatives used their positions in Bin Ladin's businesses
@@ -229,11 +228,11 @@ Table 2 below displays the revenue, attributable cost, contribution
                 stopover in the United Arab Emirates.
             The inner core of al Qaeda continued to be a hierarchical top-down group with defined
                 diagrams prepared by the team's computer specialist. He, his top military committee
-                such attacks months earlier, when some of its operatives-top military committee
-`
+                such attacks months earlier, when some of its operatives-top military committee`
+
 - The `grep` command searches for a pattern of characters (ex: top) in a file(s) (ex: `technical/911report/chapter-2.txt`) then `-h` displays the matched line. This command can be useful when searching for a word in a single file like in this example. Similar to a find shortcut (ctrl+f), I can use grep to find the matched pattern of characters but a benefit of -h is it displays the matched lines as well. 
 
-4. Command Line Option 2: ` grep -c "apple" technical/911report/*.txt `
+4. Command Line Option 2: `grep -c "apple" technical/911report/*.txt`
 - Function: Prints only a count of the lines that match a pattern 
 - Output: 
 `technical/911report/chapter-1.txt:0
@@ -259,7 +258,7 @@ technical/911report/preface.txt:0
 5. Command Line Option 2: `grep -c "apple" technical/Government/*/c*.txt`
 - Function: Prints only a count of the lines that match a pattern 
 - Output: 
-technical/Government/About_LSC/commission_report.txt:3
+`technical/Government/About_LSC/commission_report.txt:3
 technical/Government/About_LSC/conference_highlights.txt:0
 technical/Government/Env_Prot_Agen/ctf1-6.txt:0
 technical/Government/Env_Prot_Agen/ctf7-10.txt:0
