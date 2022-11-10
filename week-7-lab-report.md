@@ -49,4 +49,9 @@ Part Two:
 
 1. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
+I would prefer being logged into the ssh session then making the edits remotely because it would save time overall. I would avoid entering the local computer, making the edits, then updating the file on the remote computer. 
+
+
 2. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+
+If the project has security preferences that do not allow me to have the project on my local computer, I would be forced to make the edits remotely. Another factor is if the project is very large, it would be inefficent to clone the project to the local computer then pushing the updates everytime. 
