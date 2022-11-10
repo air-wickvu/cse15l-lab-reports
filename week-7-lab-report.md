@@ -14,7 +14,7 @@ Sequence:
 
 3. `nn<shift+v>`
 - ![image3](/images/week7-screenshot3.png)
-- Description: Cursoring down, entering Visual mode
+- Description: Pressing n to find the next occurrence of @Test, then entering Visual mode
 
 3. `jjjjjy`
 - ![image4](/images/week7-screenshot4.png)
@@ -22,7 +22,7 @@ Sequence:
 
 4. `kp`
 - ![image5](/images/week7-screenshot5.png)
-- Description: Cursoring up, then pasting lines of code
+- Description: Cursoring up, then pasting yanked lines of code
 
 5. `/test<Enter>`
 - ![image6](/images/week7-screenshot6.png)
@@ -30,7 +30,7 @@ Sequence:
 
 6. `ea2<Esc>`
 - ![image7](/images/week7-screenshot7.png)
-- Description: 
+- Description: Moving the cursor to the end of the word, appending the number 2, then exiting the insert mode. 
 
 7. `/ation<Enter>` 
 - ![image8](/images/week7-screenshot8.png)
@@ -38,7 +38,7 @@ Sequence:
 
 8. `xxxxx` 
 - ![image9](/images/week7-screenshot9.png)
-- Description: Deleting characters 
+- Description: Deleting characters to achieve wanted word. 
 
 9. `:wq<Enter>` 
 - ![image10](/images/week7-screenshot10.png)
