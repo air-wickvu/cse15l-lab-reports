@@ -9,42 +9,40 @@ Sequence:
 - Description: Entering vim editor with the file TestDocSearch.java 
 
 2. `/@Test<Enter>`
-- ![image2] (/images/week7-screenshot2.png)
+- ![image2](/images/week7-screenshot2.png)
 - Description: Searching for @Test
 
 3. `nn<shift+v>`
-- ![image1] ()
-3. `nn<shift+v>jjjjjy`
-- ![image3] (/images/week7-screenshot3.png)
-- Description: Cursoring down, entering Visual mode, selecting lines of code, then yanking 
+- ![image3](/images/week7-screenshot3.png)
+- Description: Cursoring down, entering Visual mode
 
 3. `jjjjjy`
-- ![image1] ()
+- ![image4](/images/week7-screenshot4.png)
 - Description: Selecting lines of code, then yanking 
 
 4. `kp`
-- ![image1] ()
+- ![image5](/images/week7-screenshot5.png)
 - Description: Cursoring up, then pasting lines of code
 
 5. `/test<Enter>`
-- ![image1] ()
+- ![image6](/images/week7-screenshot6.png)
 - Description: Searching for /test 
 
 6. `ea2<Esc>`
-- ![image1] ()
+- ![image7](/images/week7-screenshot7.png)
 - Description: 
 
 7. `/ation<Enter>` 
-- ![image1] ()g
-- Description: 
+- ![image8](/images/week7-screenshot8.png)
+- Description: Searching for the full word, taxation, but i am using partial words /ation to save keystrokes.
 
 8. `xxxxx` 
-- ![image1] ()
-- Description: 
+- ![image9](/images/week7-screenshot9.png)
+- Description: Deleting characters 
 
 9. `:wq<Enter>` 
-- ![image1] ()
-- Description: 
+- ![image10](/images/week7-screenshot10.png)
+- Description: Saving file then quitting vim. I reentered vim to show the file correctly saved the edits. 
 
 
 Part Two: 
