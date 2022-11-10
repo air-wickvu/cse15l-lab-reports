@@ -5,15 +5,17 @@ Chosen Task: Challenge In TestDocSearch.java, copy the test called testSearchCou
 Sequence: 
 
 1.  `vim TestDocSearch.java<Enter>` 
-- ![image1] ()
+- ![image1](/images/week7-screenshot1.png)
 - Description: Entering vim editor with the file TestDocSearch.java 
 
 2. `/@Test<Enter>`
-- ![image1] ()
+- ![image2] (/images/week7-screenshot2.png)
 - Description: Searching for @Test
 
 3. `nn<shift+v>`
 - ![image1] ()
+3. `nn<shift+v>jjjjjy`
+- ![image3] (/images/week7-screenshot3.png)
 - Description: Cursoring down, entering Visual mode, selecting lines of code, then yanking 
 
 3. `jjjjjy`
@@ -33,7 +35,7 @@ Sequence:
 - Description: 
 
 7. `/ation<Enter>` 
-- ![image1] ()
+- ![image1] ()g
 - Description: 
 
 8. `xxxxx` 
