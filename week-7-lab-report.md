@@ -12,9 +12,13 @@ Sequence:
 - ![image1] ()
 - Description: Searching for @Test
 
-3. `nn<shift+v>jjjjjy`
+3. `nn<shift+v>`
 - ![image1] ()
 - Description: Cursoring down, entering Visual mode, selecting lines of code, then yanking 
+
+3. `jjjjjy`
+- ![image1] ()
+- Description: Selecting lines of code, then yanking 
 
 4. `kp`
 - ![image1] ()
