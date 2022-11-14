@@ -49,7 +49,7 @@ Part Two:
 
 Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so: 
 
-For editing the file on the local server then scp the file to the remote server took me about 7-8 minutes. A difficulty I had was to correctly set the destination path for the edited file, this caused me to take longer as I had to login into the remote account and confirm the path. 
+For editing the file on the local server then scp the file to the remote server took me about 7-8 minutes. A difficulty I had was to correctly set the destination path for the edited file, this caused me to take longer as I had to login into the remote account and confirm the path. A notable detail I noticed was the time required to transfer the file and to login into the remote took a majority of the time.
 
 When I edited the file on the remote server, I was able to make the changes and run the test directly on the remote at about 5-6 minutes. I didn't face any difficulties but I did notice this method is much more efficient and I plan on using this method in the future when the situation arises. I was able to avoid the possible issue of correctly setting the destination path for the updated file.  
 
