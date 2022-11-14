@@ -30,7 +30,7 @@ Sequence:
 
 6. `ea2<Esc>`
 - ![image7](/images/week7-screenshot7.png)
-- Description: Moving the cursor to the end of the word with `e`, appending 2 to the end with `a`, then exiting Insert mode. 
+- Description: Moving the cursor to the end of the word with `e`, appending `2` to the end with `a`, then exiting Insert mode. 
 
 7. `/ation<Enter>` 
 - ![image8](/images/week7-screenshot8.png)
@@ -51,7 +51,7 @@ Report how long it took you to make the edit in seconds in both styles, and any 
 
 For editing the file on the local server then scp the file to the remote server took me about 7-8 minutes. A difficulty I had was to correctly set the destination path for the edited file, this caused me to take longer as I had to login into the remote account and confirm the path. 
 
-When I edited the file on the remote server, I was able to make the changes and run the test directly on the remote at about 5-6 minutes. I didn't face any difficulties but I did notice this method is much more efficient and I plan on using this method in the future when the situation arises. I was able to avoid the issue of correctly setting the destination path for the updated file.  
+When I edited the file on the remote server, I was able to make the changes and run the test directly on the remote at about 5-6 minutes. I didn't face any difficulties but I did notice this method is much more efficient and I plan on using this method in the future when the situation arises. I was able to avoid the possible issue of correctly setting the destination path for the updated file.  
 
 1. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
@@ -60,4 +60,4 @@ I would prefer being logged into the ssh session then making the edits remotely 
 
 2. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
-If the project has security preferences that do not allow me to clone the project to my local computer, I would be forced to make the edits remotely therefore influencing my decision. Another factor is if the project itself is very large in terms of data size, it would be inefficent to clone the project to the local computer then pushing the updates everytime. At the end of the day, I think learning both methods could be useful to know for when specific situations occur. 
+If the project has security preferences that do not allow me to clone the project to my local computer, I would be forced to make the edits remotely therefore influencing my decision. Another factor is if the project itself is very large in terms of data size, it would be inefficent to clone the project to the local computer then pushing the updates everytime. At the end of the day, I think learning both methods could be useful for when specific situations occur as it would allow you to be adapative and apply the method deemed most efficient. 
