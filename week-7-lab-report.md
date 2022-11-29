@@ -1,8 +1,19 @@
 Part 1:
 
-Chosen Task: Challenge In TestDocSearch.java, copy the test called testSearchCount, rename the new test to testSearchCount2 and change the query string being tested to tax rather than taxation. 
+Chosen Task: Challenge In TestDocSearch.java, copy the test called testSearchCount, rename the new test to testSearchCount2 and change the query string being tested to tax rather than taxation. <br/>
+Full Sequence: 
+1.  `vim TestDocSearch.java<Enter>` 
+2. `/@Test<Enter>`
+3. `nn<shift+v>`
+4. `jjjjjy`
+5. `kp`
+6. `/test<Enter>`
+7. `ea2<Esc>`
+8. `/ation<Enter>` 
+9. `xxxxx` 
+10. `:wq<Enter>` 
 
-Sequence: 
+Sequence with Screenshots: 
 
 1.  `vim TestDocSearch.java<Enter>` 
 - ![image1](/images/week7-screenshot1.png)
@@ -16,31 +27,31 @@ Sequence:
 - ![image3](/images/week7-screenshot3.png)
 - Description: Pressing `n` twice to find the next occurrence of `@Test`, then entering Visual mode with `<shift+v>`
 
-3. `jjjjjy`
+4. `jjjjjy`
 - ![image4](/images/week7-screenshot4.png)
 - Description: Selecting lines of code with `j`, then yanking with `y` 
 
-4. `kp`
+5. `kp`
 - ![image5](/images/week7-screenshot5.png)
 - Description: Cursoring up with `k`, then pasting yanked lines of code with `p` 
 
-5. `/test<Enter>`
+6. `/test<Enter>`
 - ![image6](/images/week7-screenshot6.png)
 - Description: Searching for `test` with `/`  
 
-6. `ea2<Esc>`
+7. `ea2<Esc>`
 - ![image7](/images/week7-screenshot7.png)
 - Description: Moving the cursor to the end of the word with `e`, appending `2` to the end with `a`, then exiting Insert mode. 
 
-7. `/ation<Enter>` 
+8. `/ation<Enter>` 
 - ![image8](/images/week7-screenshot8.png)
 - Description: Searching for partial string, `ation` with `/`, to find the full word, taxation. 
 
-8. `xxxxx` 
+9. `xxxxx` 
 - ![image9](/images/week7-screenshot9.png)
 - Description: Deleting characters to achieve wanted word with `x`, tax. 
 
-9. `:wq<Enter>` 
+10. `:wq<Enter>` 
 - ![image10](/images/week7-screenshot10.png)
 - Description: Saving file then quitting vim with `:wq`. I reentered vim to show the file correctly saved the edits. 
 
